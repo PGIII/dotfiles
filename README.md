@@ -1,2 +1,3 @@
 # dotfiles
-All the configs
+`stow`
+
