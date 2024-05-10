@@ -11,3 +11,4 @@ blur = true
 [font]
 normal = {family = "FiraCode", style="Regular"}
 bold = {family = "FiraCode", style="Bold"}
+size = 14
