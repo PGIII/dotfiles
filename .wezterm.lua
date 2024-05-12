@@ -12,5 +12,6 @@ config.window_background_opacity = 0.95
 
 config.font = wezterm.font("FiraCode Nerd Font")
 config.font_size = 16
+
 -- and finally, return the configuration to wezterm
 return config
