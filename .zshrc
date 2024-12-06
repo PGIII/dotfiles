@@ -15,8 +15,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_MODE="nerdfont-complete"
+ZSH_THEME=""
+# POWERLEVEL9K_MODE="nerdfont-complete"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -82,6 +82,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+autoload -U promptinit; promptinit
+prompt pure
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -126,3 +129,5 @@ if type brew &>/dev/null; then
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
