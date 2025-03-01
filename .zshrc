@@ -74,6 +74,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+fpath+=( /$HOME/.zsh/pure )
+autoload -Uz promptinit
+promptinit
 autoload -U promptinit; promptinit
 # install with brew install pure
 prompt pure

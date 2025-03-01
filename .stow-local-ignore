@@ -23,4 +23,4 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
-
+.DS_Store
