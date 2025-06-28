@@ -14,6 +14,7 @@
       "space c a": "editor::ToggleCodeActions",
       "space e": "editor::Hover",
       "space g d": "editor::GoToDefinition",
+      "space g r": "editor::FindAllReferences",
       "space s f": "file_finder::Toggle",
       "space s g": "pane::DeploySearch",
       "space i h": "editor::ToggleInlayHints",
