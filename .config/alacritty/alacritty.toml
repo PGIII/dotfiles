@@ -7,7 +7,7 @@ blur = true
 
 [font]
 normal = {family = "FiraCode", style="Regular"}
-size = 16
+size = 14
 
 [general]
 import = [
