@@ -124,6 +124,10 @@ if type brew &>/dev/null; then
     autoload -Uz compinit
     compinit
 
+    for pkg in zsh-autosuggestions zsh-syntax-highlighting; do
+        brew list "$pkg" &>/dev/null || brew install "$pkg"
+    done
+
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
