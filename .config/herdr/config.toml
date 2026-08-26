@@ -1,0 +1,6 @@
+# herdr config — symlinked to ~/.config/herdr/config.toml
+# Reload with: herdr server reload-config (or prefix+shift+r)
+
+[keys.indexed]
+# alt+1..9 focuses agent rows directly (no prefix).
+agents = "alt"
