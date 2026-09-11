@@ -6,7 +6,7 @@ opacity = 0.8
 blur = true
 
 [font]
-normal = {family = "FiraCode", style="Regular"}
+normal = {family = "Maple Mono NF", style="Regular"}
 size = 14
 
 [general]
