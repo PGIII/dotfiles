@@ -144,3 +144,10 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # rustup/cargo
 . "$HOME/.cargo/env"
+
+# bun completions
+[ -s "/home/pg3/.bun/_bun" ] && source "/home/pg3/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
